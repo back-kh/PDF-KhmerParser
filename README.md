@@ -30,7 +30,7 @@ This code is for academic purposes for students and those working on Khmer Text 
 ```
 ## Project Structure
 ```bash
-khmer_pdf_parser/
+PDF-KhmerParser/
 │
 ├── Sample/
 │   ├── native_sample.pdf        # Sample native PDF with Khmer text
@@ -52,19 +52,18 @@ khmer_pdf_parser/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-github-username/khmer_pdf_parser.git
+git clone https://github.com/back-kh/PDF-KhmerParser.git
 cd khmer_pdf_parser
-
-2. Install Python Dependencies
+```
+### 2. Install Python Dependencies
 Ensure you have Python 3.6+ installed. Then, install the required Python packages using pip:
-
+```bash
 pip install -r requirements.txt
-
-3. Install Tesseract OCR
+```
+### 3. Install Tesseract OCR
 Tesseract OCR is required for extracting text from scanned PDFs. Follow the instructions based on your operating system.
-
+```bash
 -Ubuntu:
-
 sudo apt-get update
 sudo apt-get install tesseract-ocr
 sudo apt-get install tesseract-ocr-khm
@@ -77,7 +76,7 @@ brew install tesseract-lang
 -Windows:
 Download Tesseract Installer:
 
-Visit the UB Mannheim Tesseract Releases and download the latest installer.
+Visit the UB Mannheim Tesseract Releases (https://digi.bib.uni-mannheim.de/tesseract/) and download the latest installer.
 Run the Installer:
 
 Follow the installation prompts. By default, Tesseract will be installed in C:\Program Files\Tesseract-OCR\.
@@ -85,7 +84,7 @@ Install Khmer Language Pack:
 
 Download khm.traineddata from the tessdata repository.
 Place the khm.traineddata file in the tessdata folder, typically located at C:\Program Files\Tesseract-OCR\tessdata\.
-
+```
 ##Usage
 Basic Usage
 Extract Khmer text from a PDF by specifying the input file. The script will automatically generate a .txt file with the extracted text.
