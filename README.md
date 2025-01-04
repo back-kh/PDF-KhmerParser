@@ -132,13 +132,13 @@ Output Should be:
 ការអប់រំនិងការអភិវឌ្ឍន៍ បច្ចេកវិទ្យា កំបានក្លាយជាភាគីសំខាន់ ក្នុងការជួយសម្រលការរីកចម្រើន និងការបង្កើនគុណភាពជីវិតសម្រាប់ប្រជាជន។ "
 ```
 
-### Logging file
+### Logging
 ```bash
 khmer_pdf_parser_native.txt
 khmer_pdf_parser_scanned.txt
 khmer_image_recognizer.txt
 ```
-#Run Tests
+### Testing
 Execute the following command to run all unit tests:
 ```bash
 python -m unittest discover Test\tests.py
