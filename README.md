@@ -1,7 +1,6 @@
 # Khmer PDF Parser
 
-A Python script to extract Khmer text from PDF files. It handles native (text-based) and scanned (image-based) PDFs by extracting selectable text or performing OCR respectively.
-This code is for academic purposes for students and those working on Khmer Text and Document Processing. 
+A simple Python script to extract Khmer text from PDF files, designed for students. It handles both native (text-based) and scanned (image-based) PDFs by extracting selectable text or performing OCR, respectively. This tool is intended for academic purposes, assisting students and researchers working on Khmer text and document processing.
 
 ## Table of Contents
 
@@ -18,8 +17,8 @@ This code is for academic purposes for students and those working on Khmer Text 
 ```bash
 - Dual Parsing Capability:
   - Native PDFs: Extract selectable Khmer text directly.
-  - Scanned PDFs: Performs OCR to extract Khmer text from images.
-
+  - Scanned PDFs: Performs OCR to extract Khmer text from Scanned PDF File.
+  - Text Image: Performs OCR to extract Khmer text from images
 - Simple Command-Line Interface: Specify the input PDF file as a positional argument.
 
 - Automatic Output Naming: Generates a `.txt` file with the same base name as the input PDF.
@@ -90,25 +89,25 @@ Place the khm.traineddata file in the tessdata folder, typically located at C:\P
 Extract Khmer text from a Scanned PDF by specifying the input file. The script will automatically generate a .txt file with the extracted text.
 ```bash
 python PDF-KhParser-Scanned.py path/input.pdf
-
+```
 Example:
-
+```bash
 python PDF-KhParser-Scanned.py Sample/Sample_PDF_Scanned.pdf
-
+```
 Output:
 
 A file named Sample/Sample_Scanned.txt will be created with the extracted Khmer text.
-```
 ### 2. Basic Usage for Text Image File
 Extract Khmer text from a Text Image by specifying the input file (JPG,PNG). The script will automatically generate a .txt file with the extracted text.
 ```bash
 python TextImage-KhParser.py path/input.jpg
-
+```
 Example:
-
+```bash
 python TextImage-KhParser.py Sample/Sample_TextImage.jpg
-
+```
 Output Should be:
+```bash
 " ប្រទេសកម្ពុជាមានប្រវត្តិសាស្ត្រយូរអង្វែងដែលចាប់ផ្តើមនៅសតវត្សទី១ ព្រមទាំងមានវប្បធម៌ និងសិល្បៈចម្រើនយ៉ាងច្រើន។ ប្រទេសកម្ពុជាមានភាសាខ្មែរដែលមានអក្សរដែលមានភាព សម្បូរបែប និងវប្បធម៌ជាតិ និងអន្តរជាតិ។ 
 ប្រជាជនកម្ពុជាស្ថិតនៅក្នុង សង្គមដែលមានការរួមបញ្ចូលគ្នា ដោយមានការកសាងសន្តិភាព និងការអភិវឌ្ឍន៍ជាច្រើនក្នុង វិស័យសេដ្ឋកិច្ច និងសង្គម។
 ការអប់រំនិងការអភិវឌ្ឍន៍ បច្ចេកវិទ្យា កំបានក្លាយជាភាគីសំខាន់ ក្នុងការជួយសម្រលការរីកចម្រើន និងការបង្កើនគុណភាពជីវិតសម្រាប់ប្រជាជន។ "
