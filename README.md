@@ -1,8 +1,7 @@
 # Khmer PDF Parser
 
-# Khmer PDF Parser
-
-A Python script to extract Khmer text from PDF files. It handles both **native (text-based)** and **scanned (image-based)** PDFs by extracting selectable text or performing OCR respectively.
+A Python script to extract Khmer text from PDF files. It handles native (text-based) and scanned (image-based) PDFs by extracting selectable text or performing OCR respectively.
+This code is for academic purposes for students and those working on Khmer Text and Document Processing. 
 
 ## Table of Contents
 
@@ -14,14 +13,11 @@ A Python script to extract Khmer text from PDF files. It handles both **native (
 - [Error Handling](#error-handling)
 - [Logging](#logging)
 - [Testing](#testing)
-- [Continuous Integration](#continuous-integration)
-- [License](#license)
-- [Author](#author)
 
 ## Features
-
+```bash
 - **Dual Parsing Capability**:
-  - **Native PDFs**: Extracts selectable Khmer text directly.
+  - **Native PDFs**: Extract selectable Khmer text directly.
   - **Scanned PDFs**: Performs OCR to extract Khmer text from images.
 
 - **Simple Command-Line Interface**: Specify the input PDF file as a positional argument.
@@ -31,7 +27,7 @@ A Python script to extract Khmer text from PDF files. It handles both **native (
 - **Robust Error Handling**: Provides informative messages for common errors.
 
 - **Logging**: Tracks the script's execution flow for easier debugging.
-
+```
 ## Project Structure
 
 khmer_pdf_parser/
