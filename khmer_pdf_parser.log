@@ -1,0 +1,83 @@
+2025-01-04 09:33:54,204 - INFO - Detected PDF type: native
+2025-01-04 09:33:54,204 - INFO - Attempting to extract text from native PDF.
+2025-01-04 09:33:54,206 - INFO - Opened PDF file: .\sample_pdfs\Sample.pdf
+2025-01-04 09:33:54,230 - INFO - Extracted text saved to: .\sample_pdfs\Sample.txt
+2025-01-04 09:52:37,702 - WARNING - Could not determine PDF type automatically: No /Root object! - Is this really a PDF?
+2025-01-04 09:52:37,702 - INFO - Detected PDF type: scanned
+2025-01-04 09:52:37,702 - INFO - Performing OCR on scanned PDF.
+2025-01-04 09:52:37,702 - INFO - Converting PDF to images: .\sample_pdfs\Sample.JPG
+2025-01-04 09:52:37,848 - ERROR - Failed to perform OCR on scanned PDF: Unable to get page count.
+Syntax Warning: May not be a PDF file (continuing anyway)
+Syntax Error: Couldn't find trailer dictionary
+Syntax Error: Couldn't find trailer dictionary
+Syntax Error: Couldn't read xref table
+
+2025-01-04 09:52:37,849 - ERROR - Failed to extract text via OCR.
+2025-01-04 09:52:37,850 - ERROR - No text extracted from the PDF.
+2025-01-04 09:54:12,835 - INFO - Detected PDF type: scanned
+2025-01-04 09:54:12,836 - INFO - Performing OCR on scanned PDF.
+2025-01-04 09:54:12,836 - INFO - Converting PDF to images: .\sample_pdfs\Sample_Scanned.pdf
+2025-01-04 09:54:13,227 - INFO - Processing page 1
+2025-01-04 09:54:14,385 - INFO - Extracted text saved to: .\sample_pdfs\Sample_Scanned.txt
+2025-01-04 09:54:43,024 - INFO - Detected PDF type: native
+2025-01-04 09:54:43,025 - INFO - Attempting to extract text from native PDF.
+2025-01-04 09:54:43,026 - INFO - Opened PDF file: .\sample_pdfs\Sample.pdf
+2025-01-04 09:54:43,045 - INFO - Extracted text saved to: .\sample_pdfs\Sample.txt
+2025-01-04 09:55:53,330 - WARNING - Could not determine PDF type automatically: No /Root object! - Is this really a PDF?
+2025-01-04 09:55:53,330 - INFO - Detected PDF type: scanned
+2025-01-04 09:55:53,330 - INFO - Performing OCR on scanned PDF.
+2025-01-04 09:55:53,330 - INFO - Converting PDF to images: .\sample_pdfs\Sample.JPG
+2025-01-04 09:55:53,362 - ERROR - Failed to perform OCR on scanned PDF: Unable to get page count.
+Syntax Warning: May not be a PDF file (continuing anyway)
+Syntax Error: Couldn't find trailer dictionary
+Syntax Error: Couldn't find trailer dictionary
+Syntax Error: Couldn't read xref table
+
+2025-01-04 09:55:53,362 - ERROR - Failed to extract text via OCR.
+2025-01-04 09:55:53,363 - ERROR - No text extracted from the PDF.
+2025-01-04 10:08:42,538 - INFO - Detected PDF type: scanned
+2025-01-04 10:08:42,538 - INFO - Performing OCR on scanned PDF.
+2025-01-04 10:08:42,539 - INFO - Converting PDF to images: .\sample_pdfs\Sample_PDF_Scanned.pdf
+2025-01-04 10:08:42,993 - INFO - Processing page 1
+2025-01-04 10:08:44,606 - INFO - Extracted text saved to: .\sample_pdfs\Sample_PDF_Scanned_PDF_Scanned.txt
+2025-01-04 10:30:18,790 - INFO - Detected PDF type: native
+2025-01-04 10:30:18,790 - INFO - Attempting to extract text from native PDF.
+2025-01-04 10:30:18,792 - INFO - Opened PDF file: .\sample_pdfs\Sample_PDF_Native.pdf
+2025-01-04 10:30:18,853 - INFO - Extracted text saved to: .\sample_pdfs\Sample_PDF_Native_PDF_Native_1.txt
+2025-01-04 10:33:41,101 - INFO - Converting PDF to images: .\sample_pdfs\Sample_PDF_Native.pdf
+2025-01-04 10:33:41,310 - INFO - Converted PDF to 1 image(s).
+2025-01-04 10:33:41,317 - INFO - Processing page 1
+2025-01-04 10:33:42,656 - INFO - Extracted text saved to: .\sample_pdfs\Sample_PDF_Native_OCR_Extracted.txt
+2025-01-04 10:34:00,372 - INFO - Converting PDF to images: .\sample_pdfs\Sample_PDF_Native.pdf
+2025-01-04 10:34:00,584 - INFO - Converted PDF to 1 image(s).
+2025-01-04 10:34:00,592 - INFO - Processing page 1
+2025-01-04 10:34:01,844 - INFO - Extracted text saved to: .\sample_pdfs\Sample_PDF_Native_OCR_Extracted.txt
+2025-01-04 10:36:01,078 - INFO - Converting PDF to images: .\sample_pdfs\Sample_PDF_Native.pdf
+2025-01-04 10:36:01,699 - INFO - Converted PDF to 1 image(s).
+2025-01-04 10:36:01,707 - INFO - Processing page 1
+2025-01-04 10:36:03,316 - INFO - Extracted text saved to: .\sample_pdfs\Sample_PDF_Native_OCR_Extracted.txt
+2025-01-04 10:38:35,622 - INFO - Converting PDF to images: .\sample_pdfs\Sample_PDF_Native.pdf
+2025-01-04 10:38:36,147 - INFO - Converted PDF to 1 image(s).
+2025-01-04 10:38:36,156 - INFO - Processing page 1
+2025-01-04 10:38:37,767 - INFO - Extracted text saved to: .\sample_pdfs\Sample_PDF_Native_PDF_Native_1.txt
+2025-01-04 10:39:40,103 - INFO - Converting PDF to images: .\sample_pdfs\Sample_PDF_Native.pdf
+2025-01-04 10:39:40,304 - INFO - Converted PDF to 1 image(s).
+2025-01-04 10:39:40,312 - INFO - Processing page 1
+2025-01-04 10:39:41,565 - INFO - Extracted text saved to: .\sample_pdfs\Sample_PDF_Native_OCR_Extracted.txt
+2025-01-04 10:46:08,161 - INFO - Converting PDF to images: .\sample_pdfs\Sample_PDF_Native.pdf
+2025-01-04 10:46:08,387 - INFO - Converted PDF to 1 image(s).
+2025-01-04 10:46:08,396 - INFO - Processing page 1
+2025-01-04 10:46:09,613 - INFO - Extracted text saved to: .\sample_pdfs\Sample_PDF_Native_OCR_Extracted.txt
+2025-01-04 10:47:11,970 - INFO - Detected PDF type: scanned
+2025-01-04 10:47:11,970 - INFO - Performing OCR on scanned PDF.
+2025-01-04 10:47:11,971 - INFO - Converting PDF to images: .\sample_pdfs\Sample_PDF_Scanned.pdf
+2025-01-04 10:47:12,443 - INFO - Processing page 1
+2025-01-04 10:47:14,926 - INFO - Extracted text saved to: .\sample_pdfs\Sample_PDF_Scanned_PDF_Scanned.txt
+2025-01-04 10:49:40,382 - INFO - Detected PDF type: native
+2025-01-04 10:49:40,383 - INFO - Attempting to extract text from native PDF.
+2025-01-04 10:49:40,385 - INFO - Opened PDF file: .\sample_pdfs\Sample_PDF_Native.pdf
+2025-01-04 10:49:40,447 - INFO - Extracted text saved to: .\sample_pdfs\Sample_PDF_Native_PDF_Scanned.txt
+2025-01-04 10:53:41,364 - INFO - Detected PDF type: native
+2025-01-04 10:53:41,365 - INFO - Attempting to extract text from native PDF.
+2025-01-04 10:53:41,366 - INFO - Opened PDF file: .\sample_pdfs\Sample_PDF_Native.pdf
+2025-01-04 10:53:41,425 - INFO - Extracted text saved to: .\sample_pdfs\Sample_PDF_Native_PDF_Scanned.txt
