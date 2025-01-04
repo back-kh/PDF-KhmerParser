@@ -41,8 +41,8 @@ PDF-KhmerParser/
 │
 ├── PDF-KhParser - Scanned.py    # The main Python for Scanned PDF script
 ├── TextImage-KhParser.py        # The main Python for Text Images script
-├── PDF-KhParser - Native 1.py    # The main Python for Native PDF script
-├── PDF-KhParser - Native 2.py    # The main Python for Native PDF script
+├── PDF-KhParser - Native 1.py   # The main Python for Native PDF script
+├── PDF-KhParser - Native 2.py   # The main Python for Native PDF script
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # Project documentation
 └── LICENSE                      # License file
