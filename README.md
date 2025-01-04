@@ -53,7 +53,7 @@ PDF-KhmerParser/
 
 ```bash
 git clone https://github.com/back-kh/PDF-KhmerParser.git
-cd khmer_pdf_parser
+cd PDF-KhmerParser
 ```
 ### 2. Install Python Dependencies
 Ensure you have Python 3.6+ installed. Then, install the required Python packages using pip:
@@ -85,40 +85,37 @@ Install Khmer Language Pack:
 Download khm.traineddata from the tessdata repository.
 Place the khm.traineddata file in the tessdata folder, typically located at C:\Program Files\Tesseract-OCR\tessdata\.
 ```
-##Usage
-Basic Usage
-Extract Khmer text from a PDF by specifying the input file. The script will automatically generate a .txt file with the extracted text.
-
-python khmer_pdf_parser.py path/to/your/input.pdf
+## Usage
+### 1. Basic Usage for Scanned PDF
+Extract Khmer text from a Scanned PDF by specifying the input file. The script will automatically generate a .txt file with the extracted text.
+```bash
+python PDF-KhParser-Scanned.py path/input.pdf
 
 Example:
 
-python khmer_pdf_parser.py sample_pdfs/native_sample.pdf
+python PDF-KhParser-Scanned.py Sample/Sample_PDF_Scanned.pdf
 
 Output:
 
-A file named sample_pdfs/native_sample.txt will be created with the extracted Khmer text.
+A file named Sample/Sample_Scanned.txt will be created with the extracted Khmer text.
+```
+### 2. Basic Usage for Text Image File
+Extract Khmer text from a Text Image by specifying the input file (JPG,PNG). The script will automatically generate a .txt file with the extracted text.
+```bash
+python TextImage-KhParser.py path/input.jpg
 
-Specify OCR Language (Optional)
-If you have installed a different Khmer language pack or want to specify a different language code, use the --lang flag:
+Example:
 
-python khmer_pdf_parser.py path/to/your/input.pdf --lang khm
+python TextImage-KhParser.py Sample/Sample_TextImage.jpg
 
-Sample Files
-1. sample_pdfs/native_sample.pdf
-A native PDF containing selectable Khmer text.
+Output Should be:
+" ប្រទេសកម្ពុជាមានប្រវត្តិសាស្ត្រយូរអង្វែងដែលចាប់ផ្តើមនៅសតវត្សទី១ ព្រមទាំងមានវប្បធម៌ និងសិល្បៈចម្រើនយ៉ាងច្រើន។ ប្រទេសកម្ពុជាមានភាសាខ្មែរដែលមានអក្សរដែលមានភាព សម្បូរបែប និងវប្បធម៌ជាតិ និងអន្តរជាតិ។ 
+ប្រជាជនកម្ពុជាស្ថិតនៅក្នុង សង្គមដែលមានការរួមបញ្ចូលគ្នា ដោយមានការកសាងសន្តិភាព និងការអភិវឌ្ឍន៍ជាច្រើនក្នុង វិស័យសេដ្ឋកិច្ច និងសង្គម។
+ការអប់រំនិងការអភិវឌ្ឍន៍ បច្ចេកវិទ្យា កំបានក្លាយជាភាគីសំខាន់ ក្នុងការជួយសម្រលការរីកចម្រើន និងការបង្កើនគុណភាពជីវិតសម្រាប់ប្រជាជន។ "
+```
 
-Example Content:
-
-នេះគឺជាឧទាហរណ៍អត្ថបទខ្មែរដែលមាននៅក្នុងឯកសារ PDF ធម្មតា។
-2. sample_pdfs/scanned_sample.pdf
-A scanned PDF containing Khmer text as images.
-
-Example Content:
-
-Image-based representation of the following text:
-នេះគឺជាឧទាហរណ៍អត្ថបទខ្មែរដែលមាននៅក្នុងឯកសារ PDF ដែលបានស្កែន។
-
+A file named Sample/Sample_Scanned.txt will be created with the extracted Khmer text.
+```
 Run Tests
 Execute the following command to run all unit tests:
 python -m unittest discover tests
