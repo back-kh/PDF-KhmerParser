@@ -16,20 +16,20 @@ This code is for academic purposes for students and those working on Khmer Text 
 
 ## Features
 ```bash
-- **Dual Parsing Capability**:
-  - **Native PDFs**: Extract selectable Khmer text directly.
-  - **Scanned PDFs**: Performs OCR to extract Khmer text from images.
+- Dual Parsing Capability:
+  - Native PDFs: Extract selectable Khmer text directly.
+  - Scanned PDFs: Performs OCR to extract Khmer text from images.
 
-- **Simple Command-Line Interface**: Specify the input PDF file as a positional argument.
+- Simple Command-Line Interface: Specify the input PDF file as a positional argument.
 
-- **Automatic Output Naming**: Generates a `.txt` file with the same base name as the input PDF.
+- Automatic Output Naming: Generates a `.txt` file with the same base name as the input PDF.
 
-- **Robust Error Handling**: Provides informative messages for common errors.
+- Robust Error Handling: Provides informative messages for common errors.
 
-- **Logging**: Tracks the script's execution flow for easier debugging.
+- Logging: Tracks the script's execution flow for easier debugging.
 ```
 ## Project Structure
-
+```bash
 khmer_pdf_parser/
 │
 ├── sample_pdfs/
@@ -44,9 +44,7 @@ khmer_pdf_parser/
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # Project documentation
 └── LICENSE                      # License file
-
-
-## Installation
+```
 
 ## Installation
 
