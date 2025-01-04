@@ -1,6 +1,8 @@
 # Khmer PDF Parser
 
-A simple Python script to extract Khmer text from PDF files, designed for students. It handles both native (text-based) and scanned (image-based) PDFs by extracting selectable text or performing OCR, respectively. This tool is intended for academic purposes, assisting students and researchers working on Khmer text and document processing.
+A straightforward Python script designed for students and researchers to extract Khmer text from PDF files. It adeptly handles both native (text-based) and scanned (image-based) PDFs by extracting selectable text or performing Optical Character Recognition (OCR), respectively. Leveraging established methods and libraries, the script ensures efficient processing of scanned and image-based documents, though native PDF extraction may face limitations with subscripts and segmentation.
+
+Additionally, it supports advanced text processing functionalities such as keyword extraction and document retrieval, making it fast and portable for preprocessing tasks. For more complex tasks that require deeper analysis or handling intricate document structures, consider employing advanced and computationally intensive training methods, such as deep learning-based OCR models or custom-trained language processing algorithms.
 
 ## Table of Contents
 
