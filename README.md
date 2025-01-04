@@ -8,8 +8,6 @@ A simple Python script to extract Khmer text from PDF files, designed for studen
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Sample Files](#sample-files)
-- [Error Handling](#error-handling)
 - [Logging](#logging)
 - [Testing](#testing)
 
@@ -41,6 +39,8 @@ PDF-KhmerParser/
 │
 ├── PDF-KhParser - Scanned.py    # The main Python for Scanned PDF script
 ├── TextImage-KhParser.py        # The main Python for Text Images script
+├── PDF-KhParser - Native 1.py    # The main Python for Native PDF script
+├── PDF-KhParser - Native 2.py    # The main Python for Native PDF script
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # Project documentation
 └── LICENSE                      # License file
@@ -106,6 +106,23 @@ Example:
 ```bash
 python TextImage-KhParser.py Sample/Sample_TextImage.jpg
 ```
+### 3. Basic Usage for Native PDF
+Extract Khmer text from a Native PDF by specifying the input file. The script will automatically generate a .txt file with the extracted text.
+```bash
+python PDF-KhParser-Native 1.py path/input.pdf
+```
+or
+```bash
+python PDF-KhParser-Native 2.py path/input.pdf
+```
+Example:
+```bash
+python PDF-KhParser-Native 1.py Sample/Sample_PDF_Native.pdf
+```
+Output:
+
+A file named Sample/Sample_Native.txt will be created with the extracted Khmer text.
+
 Output Should be:
 ```bash
 " ប្រទេសកម្ពុជាមានប្រវត្តិសាស្ត្រយូរអង្វែងដែលចាប់ផ្តើមនៅសតវត្សទី១ ព្រមទាំងមានវប្បធម៌ និងសិល្បៈចម្រើនយ៉ាងច្រើន។ ប្រទេសកម្ពុជាមានភាសាខ្មែរដែលមានអក្សរដែលមានភាព សម្បូរបែប និងវប្បធម៌ជាតិ និងអន្តរជាតិ។ 
@@ -113,8 +130,14 @@ Output Should be:
 ការអប់រំនិងការអភិវឌ្ឍន៍ បច្ចេកវិទ្យា កំបានក្លាយជាភាគីសំខាន់ ក្នុងការជួយសម្រលការរីកចម្រើន និងការបង្កើនគុណភាពជីវិតសម្រាប់ប្រជាជន។ "
 ```
 
-A file named Sample/Sample_Scanned.txt will be created with the extracted Khmer text.
+### Logging file
+```bash
+khmer_pdf_parser_native.txt
+khmer_pdf_parser_scanned.txt
+khmer_image_recognizer.txt
 ```
-Run Tests
+#Run Tests
 Execute the following command to run all unit tests:
-python -m unittest discover tests
+```bash
+python -m unittest discover Test\tests.py
+```
