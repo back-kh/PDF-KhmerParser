@@ -32,15 +32,16 @@ This code is for academic purposes for students and those working on Khmer Text 
 ```bash
 khmer_pdf_parser/
 │
-├── sample_pdfs/
+├── Sample/
 │   ├── native_sample.pdf        # Sample native PDF with Khmer text
 │   └── scanned_sample.pdf       # Sample scanned PDF with Khmer text
 │
-├── extracted_text/
+├── Extracted Text/
 │   ├── native_sample.txt        # Output for native PDF
 │   └── scanned_sample.txt       # Output for scanned PDF
 │
-├── khmer_pdf_parser.py          # The main Python script
+├── PDF-KhParser - Scanned.py    # The main Python for Scanned PDF script
+├── TextImage-KhParser.py        # The main Python for Text Images script
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # Project documentation
 └── LICENSE                      # License file
